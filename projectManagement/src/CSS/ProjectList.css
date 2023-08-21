@@ -1,0 +1,395 @@
+@media(min-width:1300px) {
+  .projectListHead {
+    background-color: rgb(235, 245, 255);
+    display: flex;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    top: 9%;
+    font-size: 14px;
+    align-items: center;
+  }
+  .dashboardHeading{
+    display: none;
+  }
+
+  #projectH {
+    position: absolute;
+    left: 20px;
+  }
+
+  #projectR {
+    position: absolute;
+    left: 250px;
+  }
+
+  #projectT {
+    position: absolute;
+    left: 370px;
+  }
+
+  #projectD {
+    position: absolute;
+    left: 490px;
+  }
+
+  #projectC {
+    position: absolute;
+    left: 610px;
+  }
+
+  #projectP {
+    position: absolute;
+    left: 730px;
+  }
+
+  #projectDep {
+    position: absolute;
+    left: 850px;
+  }
+
+  #projectL {
+    position: absolute;
+    left: 970px;
+  }
+
+  #projectS {
+    position: absolute;
+    left: 1090px;
+  }
+
+  .projectListWrapper {
+    position: absolute;
+    width: 100%;
+    height: 84%;
+    top: 16%;
+  }
+
+  .projectListElement {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: 12%;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .pleH {
+    position: absolute;
+    left: 20px;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .pleH>span {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+  }
+
+  .pleR {
+    position: absolute;
+    left: 250px;
+  }
+
+  .pleT {
+    position: absolute;
+    left: 370px;
+  }
+
+  .pleD {
+    position: absolute;
+    left: 490px;
+  }
+
+  .pleC {
+    position: absolute;
+    left: 610px;
+  }
+
+  .pleP {
+    position: absolute;
+    left: 730px;
+  }
+
+  .pleDep {
+    position: absolute;
+    left: 850px;
+  }
+
+  .pleL {
+    position: absolute;
+    left: 970px;
+  }
+
+  .pleS {
+    position: absolute;
+    left: 1090px;
+    color: rgba(4, 78, 146, 1);
+  }
+
+  .startProjectButton,
+  .closeProjectButton,
+  .cancelProjectButton {
+    position: absolute;
+    border: none;
+    outline: none;
+    background-color: rgba(4, 78, 146, 1);
+    color: rgba(255, 255, 255, 0.7);
+    left: 1190px;
+    width: 65px;
+    font-size: 14px;
+    height: 25px;
+    border-radius: 20px;
+  }
+
+  .closeProjectButton {
+    color: rgba(4, 78, 146, 1);
+    border: 1px solid rgba(4, 78, 146, 1);
+    background-color: white;
+    left: 1280px;
+  }
+
+  .cancelProjectButton {
+    color: rgba(4, 78, 146, 1);
+    border: 1px solid rgba(4, 78, 146, 1);
+    background-color: white;
+    left: 1370px;
+  }
+
+  .pageNumWrapper {
+    position: absolute;
+    height: 12%;
+    width: 100%;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pageElement {
+    font-size: 15px;
+    color: rgba(4, 78, 146, 1);
+    border: 1px solid rgba(4, 78, 146, 1);
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 5px 5px 10px;
+    border-radius: 3px;
+    background-color: white;
+    outline: none;
+  }
+
+  .pageElement:hover {
+    cursor: pointer;
+  }
+
+  .selectedPageElement {
+    font-size: 15px;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 5px 5px 10px;
+    border-radius: 3px;
+    background-color: rgba(4, 78, 146, 1);
+    outline: none;
+  }
+
+  #searchImage {
+    position: absolute;
+    height: 17px;
+    left: 25px;
+    top: 15px;
+  }
+
+  #searchText {
+    position: absolute;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px 25px 5px 35px;
+    font-size: 16px;
+    width: 210px;
+    top: 15px;
+    left: 20px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  #sortingDiv {
+    position: absolute;
+    right: 10px;
+    font-size: 16px;
+    top: 15px;
+  }
+
+  #sortingOption {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 100;
+    appearance: none;
+    background-image: url(../../public/IMAGES/dropDown.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 82px 2px;
+    width: 100px;
+  }
+
+  #sortingDiv>label {
+    margin-right: 20px;
+  }
+
+  .projectListWrapper1 {
+    display: none;
+  }
+}
+
+@media(max-width:1000px) {
+  .projectListWrapper1 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 0%;
+    padding-bottom: 70px;
+  }
+
+  .projectListWrapper,
+  .pageNumWrapper {
+    display: none;
+  }
+
+  .projectListHead {
+    display: none;
+  }
+
+  .projectListElement {
+    position: relative;
+    background-color: white;
+    width: 86%;
+    left: 7%;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    height: 330px;
+    margin-bottom: 20px;
+  }
+
+  .pleH,
+  .pleR,
+  .pleT,
+  .pleD,
+  .pleC,
+  .pleP,
+  .pleDep,
+  .pleL,
+  .pleS {
+    position: absolute;
+    left: 25px;
+    top: 200px;
+  }
+
+  .pleH,
+  .pleS {
+    top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .pleH>span {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+  }
+
+  .pleR {
+    top: 80px;
+  }
+
+  .pleT,
+  .pleC {
+    top: 110px;
+  }
+
+  .pleC,
+  .pleDep {
+    left: 165px;
+  }
+
+  .pleD,
+  .pleDep {
+    top: 140px;
+  }
+
+  .pleL {
+    top: 170px;
+  }
+
+  .pleS {
+    left: 220px;
+  }
+
+  .startProjectButton,
+  .closeProjectButton,
+  .cancelProjectButton {
+    position: absolute;
+    width: 28%;
+    border: none;
+    outline: none;
+    background-color: rgba(4, 78, 146, 1);
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    top: 260px;
+  }
+
+  .startProjectButton {
+    left: 4%;
+  }
+
+  .closeProjectButton {
+    left: 36%;
+  }
+
+  .cancelProjectButton {
+    left: 68%;
+  }
+
+  #searchText {
+    position: absolute;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px 25px 5px 35px;
+    font-size: 16px;
+    width: 110px;
+    top: 115px;
+    left: 23px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  #searchImage {
+    position: absolute;
+    height: 17px;
+    left: 25px;
+    top: 115px;
+  }
+  #sortingDiv{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:95px;
+    justify-content: space-between;
+    height: 50px;
+    left: 240px;
+  }
+  #sortingOption{
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,143 @@
+@media(min-width:1300px) {
+ .userWindow {
+ position: absolute;
+ height: 100%;
+ width: 97%;
+ top: 0%;
+ left: 3%;
+ background-color: rgba(240, 243, 246, 1);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.dashboardHeading,.dashboardHeading1{
+  display: block;
+  font-size: 20px;
+  z-index: 2;
+  left: 40px;
+  position: absolute;
+  top:40px;
+  color: white;
+}
+.dashboardHeading1{
+  top:-75px;
+  left: 25px;
+}
+#logoutIconPhone{
+  display: none;
+}
+.userWindowHeadImg {
+ position: absolute;
+ width: 100%;
+}
+
+.userDataSubWindow {
+ height: 84%;
+ width: 98%;
+ bottom: 0%;
+ background-color: white;
+ border-radius: 10px;
+ box-shadow: 0px 0px 20px rgba(4, 78, 146, 0.2);
+ z-index: 1;
+ position: absolute;
+}
+.userWindowLogo{
+ z-index: 1;
+ position: absolute;
+ top:17px;
+}
+.userOptions{
+ position: absolute;
+ top:0%;
+ width: 3%;
+ height: 100%;
+}
+.optionInactive{
+ position: absolute;
+ width: 50%;
+ padding: 25%;
+ top:33%;
+}
+#listInactive{
+ top:42%;
+}
+#addInactive{
+ top:58%;
+}
+#divideOpt{
+ position: absolute;
+ left: 15%;
+ width: 70%;
+ top:53%;
+ background-color: rgba(0, 0, 0, 0.2);
+ height: 2px;
+}
+.optionInactive:hover{
+ cursor: pointer;
+}
+#logoutIcon{
+ position: absolute;
+ top: 650px;
+}
+}
+@media(max-width:1000px) {
+ .userWindow {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0%;
+   background-color: rgba(240, 243, 246, 1);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   overflow-x: hidden;
+  }
+ .userWindowHeadImg{
+  position: absolute;
+  height: 90px;
+  left: 0px;
+ }
+ .userOptions{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  height: 9%;
+  bottom: 0%;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+ }
+ #divideOpt{
+  display: none;
+ }
+ .optionInactive{
+  position: absolute;
+  height: 50%;
+  top:25%;
+  width: 28%;
+ }
+ #dashInactive{
+  left:4%;
+ }
+ #listInactive{
+  left:36%;
+ }
+ #addInactive{
+  left: 68%;
+ }
+ #logoutIcon{
+  display: none;
+}
+ #logoutIconPhone{
+  display: block;
+  position: absolute;
+  top:25px;
+  right: -10px;
+  height: 30px;
+  z-index: 2;
+ }
+ .dashboardHeading1{
+  display: none;
+ }
+}

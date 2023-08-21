@@ -1,0 +1,139 @@
+@media(min-width:1300px) {
+ .dashDataWrap {
+  position: absolute;
+  height: 14%;
+  width: 100%;
+  top: 16%;
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .dashDataEle {
+  height: 100%;
+  width: 18%;
+  background-color: white;
+  border-left: 4px solid rgb(19, 198, 227);
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+ }
+
+ .dashValue {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 13px;
+  color: rgba(0, 0, 0, 0.7);
+ }
+
+ .dashValue>span {
+  color: rgba(0, 0, 0, 1);
+  font-size: 40px;
+  font-weight: 600;
+ }
+
+ .chartWrapper {
+  position: absolute;
+  background-color: white;
+  left: 20px;
+  bottom: 20px;
+  padding-top: 60px;
+  padding-right: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+ }
+ .chartWrapper1{
+  display: none;
+ }
+
+ #chartHeading {
+  position: absolute;
+  top: 235px;
+  left: 17px;
+  font-weight: 400;
+  font-size: 24px;
+ }
+}
+
+@media(max-width:900px) {
+ .dashDataWrap {
+  position: absolute;
+  height: 14%;
+  width: 100%;
+  top: 16%;
+  display: flex;
+  justify-content: space-around;
+  overflow-y: scroll;
+ }
+
+ .dashDataEle {
+  position: absolute;
+  height: 100%;
+  width: 18%;
+  background-color: white;
+  border-left: 4px solid rgb(19, 198, 227);
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin: 0px 5px 0px 5px;
+  width: 130px;
+ }
+
+ #dde1 {
+  left: 10px;
+ }
+
+ #dde2 {
+  left: 170px;
+ }
+
+ #dde3 {
+  left: 330px;
+ }
+
+ #dde4 {
+  left: 490px;
+ }
+
+ #dde5 {
+  left: 650px;
+ }
+
+ .dashValue {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 13px;
+  color: rgba(0, 0, 0, 0.7);
+ }
+
+ .dashValue>span {
+  color: rgba(0, 0, 0, 1);
+  font-size: 40px;
+  font-weight: 600;
+ }
+
+ #chartHeading {
+  position: absolute;
+  top: 225px;
+  left: 13px;
+  font-weight: 400;
+  font-size: 21px;
+ }
+ .chartWrapper{
+  display: none;
+ }
+
+ .chartWrapper1 {
+  position: absolute;
+  background-color: white;
+  top: 295px;
+  padding-top: 60px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 96%;
+  left: 2%;
+ }
+  .dashboardHeading {
+   position: absolute;
+   font-size: 20px;
+   top: 17px;
+   left: 43px;
+   color: white;
+  }
+}

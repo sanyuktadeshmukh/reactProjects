@@ -1,0 +1,372 @@
+@media(min-width:1300px) {
+ .landingDiv {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+ }
+ #hidepassword{
+  position: absolute;
+  top:38px;
+  right: 13px;
+  height: 15px;
+ }
+ #hidepassword:hover{
+  cursor: pointer;
+ }
+ #landingMainHead {
+   position: absolute;
+   left: 0px;
+   width: 100%;
+ }
+ .ovalLogo{
+  display: none;
+ }
+ .landingSubDiv1 {
+  background-color: white;
+  width: 25%;
+  height: 55%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(4, 78, 146, 0.5);
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+ .langingLogo {
+  position: absolute;
+  height: 80px;
+  top: 40px;
+ }
+
+ #langingHeading {
+  position: absolute;
+  top: 125px;
+  color: rgba(255, 255, 255, 0.7);
+ }
+
+ .landingSubDiv1>div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+ }
+
+ .inputLabel {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 3px;
+ }
+
+ .inputField {
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
+ }
+
+ #LoginHeading,
+ #signupHeading {
+  position: absolute;
+  top: 10px;
+  font-size: 17px;
+ }
+
+ #loginEmailDiv {
+  position: absolute;
+  top: 80px;
+ }
+
+ #loginPassDiv {
+  position: absolute;
+  top: 180px;
+ }
+
+ #signupNameDiv {
+  position: absolute;
+  top: 60px;
+ }
+
+ #signupEmailDiv {
+  position: absolute;
+  top: 145px;
+ }
+
+ #signupPassDiv {
+  position: absolute;
+  top: 230px;
+ }
+
+ #forgotPassText {
+  color: rgba(4, 78, 146, 0.8);
+  font-size: 13px;
+  position: absolute;
+  top: 53px;
+  right: 0px;
+ }
+
+ .buttonInput {
+  width: 40%;
+  padding: 5px 0px 5px 0px;
+  background-color: rgba(4, 78, 146, 1);
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+ }
+
+ #loginButton {
+  position: absolute;
+  bottom: 40px;
+ }
+
+ #newToTechPrimeLab {
+  position: absolute;
+  bottom: 0px;
+  font-size: 13px;
+  color: rgba(4, 78, 146, 1);
+ }
+
+ #newToTechPrimeLab>span {
+  border-bottom: 1px solid rgba(4, 78, 146, 1);
+  position: relative;
+  left: 3px;
+ }
+
+ #newToTechPrimeLab>span:hover {
+  cursor: pointer;
+ }
+
+ #negetiveResponse {
+  position: absolute;
+  bottom: 30px;
+  color: red;
+ }
+
+ .loginFalse {
+  position: absolute;
+  top: 52px;
+  font-size: 13px;
+  color: red;
+ }
+ #signupButton {
+  position: absolute;
+  top: 325px;
+  width: 30%;
+  height: 25px;
+}
+#newToTechPrimeLab1 {
+  position: absolute;
+  top: 340px;
+  font-size: 13px;
+  color: rgba(4, 78, 146, 1);
+  width: 90%;
+  left: 4%;
+  text-align: center;
+  top: 345px;
+}
+#newToTechPrimeLab1>span {
+  border-bottom: 1px solid rgba(4, 78, 146, 1);
+  position: relative;
+  left: 3px;
+}
+#newToTechPrimeLab1>span:hover{
+  cursor: pointer;
+}
+}
+
+@media(max-width:1000px) {
+ .landingDiv {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../../public/IMAGES/login-bg-1.svg);
+  background-size: 260%;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  overflow-x: hidden;
+ }
+
+ .ovalLogo {
+  position: absolute;
+  top: 0%px;
+  left: 20%;
+  height: 34%;
+ }
+
+ #langingHeading {
+  position: absolute;
+  top: 27%;
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+ }
+
+ .langingLogo {
+  position: absolute;
+  height: 10%;
+  top: 18%;
+  z-index: 2;
+ }
+
+ .landingSubDiv1 {
+  position: absolute;
+  width: 84%;
+  top: 47%;
+ }
+
+ #LoginHeading,
+ #signupHeading {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 500;
+ }
+
+ .landingSubDiv1>div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ }
+
+ .inputLabel {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 3px;
+ }
+
+ .inputField {
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
+ }
+
+ .buttonInput {
+  width: 40%;
+  padding: 5px 0px 5px 0px;
+  background-color: rgba(4, 78, 146, 1);
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+ }
+
+ #loginEmailDiv,
+ #signupNameDiv,
+ #signupEmailDiv,
+ #signupPassDiv {
+  position: absolute;
+  top: 65px;
+ }
+
+ #loginPassDiv,
+ #signupEmailDiv {
+  position: absolute;
+  top: 160px;
+ }
+
+ #signupNameDiv {
+  top: 60px;
+ }
+
+ #signupEmailDiv {
+  top: 150px;
+ }
+
+ #signupPassDiv {
+  top: 240px;
+ }
+
+ #signupButton {
+  position: absolute;
+  top: 335px;
+  width: 100%;
+   height: 35px;
+ }
+
+ #loginButton {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  height: 35px;
+ }
+
+ #newToTechPrimeLab,#newToTechPrimeLab1 {
+  position: absolute;
+  top: 340px;
+  font-size: 13px;
+  color: rgba(4, 78, 146, 1);
+  width: 90%;
+  left: 7%;
+  text-align: center;
+ }
+ #newToTechPrimeLab1{
+  top:360px;
+ }
+
+ #forgotPassText {
+  position: absolute;
+  color: rgba(4, 78, 146, 0.8);
+  right: 0px;
+  top: 50px;
+ }
+
+  #newToTechPrimeLab>span {
+   border-bottom: 1px solid rgba(4, 78, 146, 1);
+   position: relative;
+   left: 3px;
+  }
+    #newToTechPrimeLab1>span {
+     border-bottom: 1px solid rgba(4, 78, 146, 1);
+     position: relative;
+     left: 3px;
+    }
+
+ .loginFalse {
+  position: absolute;
+  top: 52px;
+  font-size: 13px;
+  color: red;
+ }
+ #negetiveResponse {
+   position: absolute;
+   top: 25px;
+   color: red;
+   width: 80%;
+   left: 10%;
+   text-align: center;
+ }
+ #landingMainHead{
+  position: absolute;
+  left: 0px;
+  height: 320px;
+ }
+ #hidepassword {
+   position: absolute;
+   top: 57%;
+   right: 13px;
+   height: 26%;
+ }
+
+ #hidepassword:hover {
+   cursor: pointer;
+ }
+}

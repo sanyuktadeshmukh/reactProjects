@@ -1,0 +1,251 @@
+@media(min-width:1300px) {
+  .projectThemeInput {
+    position: absolute;
+    /* height: 50px; */
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    resize: none;
+    padding: 25px 10px 10px 10px;
+    font-size: 16px;
+    top: 20px;
+    left: 20px;
+    width: 800px;
+    outline: none;
+  }
+  .dummy {
+    display: none;
+  }
+
+  .inputDiv {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    left: 20px;
+    top: 150px;
+  }
+
+  .projectInput,
+  .projectInputDate {
+    height: 50px;
+    padding: 0px 0px 0px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+
+  }
+
+  .projectInput {
+    appearance: none;
+    background-image: url(../../public/IMAGES/dropDown.png);
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 315px 16px;
+  }
+
+  #projectTypeDiv {
+    left: 410px;
+    top: 150px;
+  }
+
+  #projectDivisionDiv {
+    left: 800px;
+    top: 150px;
+  }
+
+  #projectCategoryDiv {
+    left: 20px;
+    top: 270px;
+  }
+
+  #projectPriorityDiv {
+    left: 410px;
+    top: 270px;
+  }
+
+  #projectDepartmentDiv {
+    left: 800px;
+    top: 270px;
+  }
+
+  #projectStartDateDiv {
+    left: 20px;
+    top: 390px;
+  }
+
+  #projectEndDateDiv {
+    left: 410px;
+    top: 390px;
+  }
+
+  #projectLocationDiv {
+    left: 800px;
+    top: 390px;
+  }
+
+  #projectStatus {
+    position: absolute;
+    left: 800px;
+    top: 490px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  #projectStatus>span {
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+  }
+
+  #saveProjectButton {
+    position: absolute;
+    width: 140px;
+    right: 20px;
+    top: 20px;
+    padding: 7px 0px 7px 0px;
+  }
+
+  .falseDate {
+    color: red;
+    position: absolute;
+    top: 63px;
+    font-size: 15px;
+  }
+
+  .falseTheme {
+    position: absolute;
+    left: 20px;
+    top: 85px;
+    color: red;
+  }
+}
+
+@media(max-width:1000px) {
+  .projectThemeInput {
+    position: absolute;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    resize: none;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    top: 130px;
+    width: 80%;
+    left: 7%;
+    outline: none;
+  }
+
+  .inputDiv {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    left: 7%;
+    top: 150px;
+  }
+
+  .projectInput,
+  .projectInputDate {
+    height: 50px;
+    padding: 0px 0px 0px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    width: 312px;
+    left: 7%;
+  }
+
+  .projectInputDate {
+    width: 300px;
+  }
+
+  .projectInput {
+    appearance: none;
+    background-image: url(../../public/IMAGES/dropDown.png);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: 265px 12px;
+  }
+
+  #projectReasonDiv {
+    top: 230px;
+  }
+
+  #projectTypeDiv {
+    top: 330px;
+  }
+
+  #projectDivisionDiv {
+    top: 430px;
+  }
+
+  #projectCategoryDiv {
+    top: 530px;
+  }
+
+  #projectPriorityDiv {
+    top: 630px;
+  }
+
+  #projectDepartmentDiv {
+    top: 730px;
+  }
+
+  #projectStartDateDiv {
+    top: 830px;
+  }
+
+  #projectEndDateDiv {
+    top: 930px;
+  }
+
+  #projectLocationDiv {
+    top: 1030px;
+  }
+
+  #saveProjectButton {
+    position: absolute;
+    width: 86%;
+    top: 1170px;
+    left: 7%;
+    height: 35px;
+    margin-bottom: 3000px;
+  }
+
+  .dummy {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 1400px;
+  }
+
+  #projectStatus {
+    position: absolute;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    top: 1100px;
+    width: 80%;
+    left: 10%;
+  }
+
+  #projectStatus>span {
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+  }
+  .falseTheme{
+    position: absolute;
+    left: 27px;
+    top:180px;
+    color: red;
+  }
+  .falseDate{
+    position: absolute;
+      left: px;
+      top: 60px;
+      color: red;
+  }
+}
