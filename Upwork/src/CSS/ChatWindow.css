@@ -1,0 +1,149 @@
+.ChatWindow {
+  position: absolute;
+  height: 96%;
+  top: 2%;
+  width: 70%;
+  left: 15%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.ChatListWrap,
+.ChatSection {
+  position: absolute;
+  bottom: 10px;
+  left: 1%;
+  width: 25%;
+  height: 87%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+  overflow-y: hidden;
+}
+
+.ChatSection {
+  left: 27%;
+  width: 72%;
+}
+
+.ChatSectionTop,
+.ChatSectionBotttom {
+  position: absolute;
+  width: 100%;
+  height: 8%;
+  background-color: rgba(13, 138, 0, 0.5);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.ChatSectionBotttom {
+  bottom: 0%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 10%;
+  background-color: white;
+  height: 15%;
+}
+
+.chatSearch {
+  position: absolute;
+  top: 32px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0px 20px 5px 30px;
+  width: 80%;
+  left: 1%;
+  font-size: 17px;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.chatSearchIcon {
+  position: absolute;
+  height: 17px;
+  top: 33px;
+  left: 10px;
+}
+
+.meggaseInput {
+  position: absolute;
+  height: 60%;
+  top: 17%;
+  left: 2%;
+  padding: 5px 13px 0px 15px;
+  border-radius: 20px;
+  width: 87%;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 17px;
+  resize: none;
+}
+
+.meggaseInput::-webkit-scrollbar {
+  width: 2px;
+}
+
+.sendMessage {
+  position: absolute;
+  height: 25%;
+  top: 27%;
+  outline: none;
+  border: none;
+  background-color: rgba(13, 138, 0, 1);
+  color: white;
+  font-size: 17px;
+  border-radius: 30px;
+  right: 1%;
+  padding: 10px;
+  visibility: hidden;
+}
+
+.sendMessage:hover {
+  cursor: pointer;
+}
+
+.connectionWrap {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  height: 90%;
+  background-color: aqua;
+}
+
+.connectionElement {
+  width: 100%;
+  background-color: white;
+}
+
+.currentChat {
+  position: absolute;
+  top: 9%;
+  width: 100%;
+  /* background-color: red; */
+  height: 80%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sentMessage {
+  background-color: black;
+  width: 200px;
+  padding: 10px;
+  color: white;
+  height: max-content;
+  position: relative;
+  left: 0px;
+  background-color: rgba(13, 138, 0, 0.5);
+  border-radius: 25px;
+  align-self: flex-start;
+  margin: 5px;
+}
+
+.receivedMessage {
+  align-self: flex-start;
+}

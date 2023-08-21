@@ -1,0 +1,241 @@
+#FLBoard {
+    position: absolute;
+    width: 100%;
+    height: 638px;
+    background-color: rgb(232, 247, 232);
+    top: 69px;
+    left: 0px;
+}
+
+#FLAlalytics,
+#FLProfile {
+    background-color: white;
+    height: 92%;
+    width: 18%;
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(16, 138, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(0, 108, 0, 1);
+}
+
+#FLProfile {
+    left: 80%;
+}
+
+#FLPost {
+    position: absolute;
+    height: 92%;
+    position: absolute;
+    top: 4%;
+    left: 22%;
+    width: 56%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(16, 138, 0, 0.3);
+}
+
+#FLAlalytics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.FLAData {
+    background-color: rgba(0, 108, 0, 1);
+    height: 120px;
+    width: 80%;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.FLAData:hover {
+    cursor: pointer;
+    background-color: rgba(10, 138, 0, 1);
+    box-shadow: 0px 0px 5px rgba(16, 138, 0, 3);
+    border: 2px solid beige;
+}
+
+#FLAlalytics>div>h1 {
+    position: absolute;
+    left: 50px;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+#FLAlalytics>div>p {
+    position: absolute;
+    left: 50px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.FLSearchDiv {
+    position: absolute;
+    width: 96%;
+    left: 2%;
+    top: 16px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+#FLSearchText {
+    position: absolute;
+    height: 40%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    left: 50px;
+    width: 500px;
+}
+
+#FreePostsBack {
+    position: absolute;
+    /* background-color: aqua; */
+    width: 90%;
+    left: 5%;
+    top: 11%;
+    height: 85%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 108, 0, 0.7);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 108, 0, 0.2);
+}
+
+.postHeadP {
+    font-size: 19px;
+    color: rgba(0, 108, 0, 1);
+    border-bottom: 1px solid rgba(0, 108, 0, 1);
+    width: max-content;
+}
+
+.postBodyP,
+.postHeadP>span {
+    font-size: 16px;
+    text-align: justify;
+    color: rgba(0, 108, 0, 0.7);
+
+}
+
+.postHeadP>span {
+    border-bottom: 0px;
+}
+
+
+.postDate {
+    font-size: 12px;
+    position: absolute;
+    margin-top: 24px;
+    right: 24px;
+    color: rgba(0, 108, 0, 1);
+}
+
+.extraDataPost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edpsd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jobApplyButton {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 108, 0, 1);
+    font-size: 17px;
+    padding-top: 5px;
+    padding: 7px 14px 7px 14px;
+    border-radius: 20px;
+    position: relative;
+    margin: 30px 0px 10px 300px;
+}
+
+.edpsd>p>span {
+    position: relative;
+    top: 1px;
+}
+
+.skillwrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 0px;
+    position: relative;
+    right: 8px;
+    scroll-behavior: smooth;
+}
+
+.skillp {
+    background-color: rgba(0, 108, 0, 0.4);
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    color: rgba(0, 108, 0, 1);
+}
+
+.skillwrap::-webkit-scrollbar-track {
+    background: rgba(0, 108, 0, 0);
+}
+#freelancerAccount{
+    position: absolute;
+    bottom: 20px;
+}
+#freelancerAccount>h1{
+    position: absolute;
+    left: 20px;
+}
+.dashHead1 {
+    font-weight: 100;
+    position: absolute;
+    top: 10px;
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 27px;
+    left: 10px;
+    text-align: center;
+}
+
+.dashHead1>span {
+    font-size: 15px;
+    letter-spacing: 21px;
+    text-align: center;
+    position: relative;
+    left: 8px;
+}
+.dashIconImg1 {
+    position: absolute;
+    top: 93px;
+    border-bottom: 1px dotted rgba(0, 108, 0, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 7px;
+}
